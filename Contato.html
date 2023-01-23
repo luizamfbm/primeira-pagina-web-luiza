@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF=8">
+        <title> Contato - Dynamic English With Luiza </title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1> <img src="IMG_0338-removebg-preview.png" alt="Logo Dynamic English With Luiza"> </h1>
+                <nav>
+                    <ul>
+                        <li> <a href="HomeDynamicEnglish.html"> Home </a> </li>
+                        <li> <a href="planosdeestudo.html"> Planos de Estudo </a></li>
+                        <li> <a href="contato.html"> Contato </a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+
+        <main>
+            <form>
+                <label for="nomesobrenome"> Nome e sobrenome: </label>
+                <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+                <label for="email"> Email </label>
+                <input type="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                <label for="telefone"> Telefone </label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+                <fieldset>
+                    <legend> Qual pacote deseja adquirir? </legend>
+                    <select>
+                        <option> Kids Pack </option>
+                        <option> Teens Pack </option>
+                        <option> Adults Pack </option>
+                    </select>   
+                </fieldset>
+
+                <label for="mensagem"> Mensagem </label>
+                <textarea cols="70" rows="10" id="mensagem" required placeholder="Qual dia e horário deseja fazer sua aula? ex: segunda e quarta 9h~10h "></textarea required>
+
+
+                <fieldset>
+                    <legend> Como prefere o nosso contato? </legend>
+                    <label for="radio-email"><input type="radio" name=contato value=
+                        "email" id="radio-email"> Email </label>
+                    
+                    <label for="radio-telefone"><input type="radio" name="contato" value=
+                        "telefone" id="radio-telefone"> Telefone </label>
+
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value=
+                        "Whatsapp" id="radio-whatsapp" checked> Whatsapp </label>
+                  
+                </fieldset>
+
+            <fieldset>
+                <legend> Qual horário prefere ser atendido? </legend>
+                <select>
+                    <option> Manhã </option>
+                    <option> Tarde </option>
+                    <option> Noite </option>
+                </select>   
+            </fieldset>
+
+                <label class="checkbox"><input type="checkbox" checked> Gostaria de receber nossas novidades por email? </label>
+
+            
+                <input type="submit" value="Enviar Formulario" class="enviar">
+            </form>    
+
+            <table>
+                <thead>
+                <tr>
+                    <th> Dia </th>
+                    <th> horário</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td> Segunda </td>
+                    <td> 8h~20h </td>
+                </tr>
+                    <td> Terça </td>
+                    <td> 7h~19h </td>
+                <tr>
+                    <td> Quarta </td>
+                    <td> 8h~20h </td>
+                </tr>
+                    <td> Quinta </td>
+                    <td> 7~19h </td>
+                <tr>
+                    <td> Sexta </td>
+                    <td> 8h~20h </td>
+                </tr>
+                </tbody>
+            </table>
+
+        </main>
+
+
+        <footer>
+            <img src="IMG_0337-removebg-preview.png" alt="Logo da Dynamic English With Luiza" width="250" height="250">
+            <p class="copyright">&copy; Copyright Dynamic English With Luiza - 2023
+    </body>
+</html>
