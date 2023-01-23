@@ -1,0 +1,227 @@
+body {
+    font-family: 'Montserrat', sans-serif;}
+
+header {
+background-color: white;
+padding: 20px 0;}
+
+.caixa{
+    width: 940px;
+    position:relative;
+    margin: 0 auto;}
+
+.caixa img {
+    max-width: 350px;
+    max-height: 250px;}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;}
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(152,15,81);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;}
+
+nav a:hover {
+    color: rgb(152,15,81);
+    text-decoration: underline;}
+
+.planosdeestudo {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;}
+
+.planosdeestudo li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px ;}
+
+.planosdeestudo li:hover {
+    border-color: rgb(152,15,81);}
+
+.planosdeestudo li:active {
+    border-color: rgb(255, 14, 130);}
+
+.planosdeestudo li:hover h2 {
+    font-size: 34px;}
+
+.planosdeestudo h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: deeppink;}
+
+.planos-descriçao-idade {
+    font-size: 20px;
+    padding: 1em;}
+    
+.planos-preço {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;}
+
+.planos-descriçao-aulas {
+    font-size: 15px;
+    margin-bottom: 10px;}
+
+    footer {
+        text-align: center;
+        background: url("fundo-de-parede-grunge-vintage_1409-1796.jpg");
+        padding: 20px 0;}
+
+.imagem-footer {
+    width: 15px;
+    height: 5px;}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;}
+
+form {
+    margin: 0 40px 0;}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 20px;}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 50%;}
+
+.checkbox {
+    margin: 20px 0;}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: rgb(227, 30, 109);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;}
+
+.enviar:hover {
+    background: rgb(131, 1, 57);
+    transform: scale(1.2);}
+
+table{
+    margin:   40px 40px 40px 40px;
+    padding: auto;}
+
+thead {
+    background:rgb(227, 30, 109);
+    font-weight: bold;}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+    width: 205px;}
+
+/* css da página inicial */
+.banner {
+
+    width: 100%;}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;}
+
+.principal {
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;}
+
+.principal p {
+    margin: 0 0 1em;}
+
+.principal strong {
+    font-weight: bold;}
+
+.principal em {
+    font-style: italic;}
+
+.logorosa {
+    width: 140px;
+    float: left;
+    margin: 0 20px 20px 0;}
+
+.mapa {
+        padding: 3em 0;
+        background:linear-gradient(#FEFEFE, rgb(152,15,81));}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;}
+    
+.mapa p {
+        margin: 0 0 2em;
+        text-align: center;}
+    
+.qualidades {
+    padding: 3em 0;
+    background: rgb(152, 15, 81);
+    color: #FEFEFE;}
+
+.conteudo-qualidades{
+    width: 640px;
+    margin: auto;}
+
+.lista-qualidades {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;}
+
+.itens {
+    line-height: 1.5;}
+
+.itens:first-child {
+    font-weight: bold;}
+
+.itens:before {
+    content: "✭";}
+
+.imagem-qualidades {
+    width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 10px #000000;}
+
+.imagem-qualidades:hover {
+    opacity: 0.8;}
+
+
+
+@media screen and (max-width: 480px) 
+    {
+     .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {width: auto;}
+     h1 {
+        text-align: center;}
+    nav {
+        position: static;}
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;}
+    }
+   
