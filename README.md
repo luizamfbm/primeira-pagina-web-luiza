@@ -1,4 +1,4 @@
-# resultados/imagens usadas
+
 
 resultados da página:
 
